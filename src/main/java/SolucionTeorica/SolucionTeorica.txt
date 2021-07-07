@@ -1,0 +1,45 @@
+*****SolucionTeorica 1reParcial*****
+
+>>Primera Parte<<
+
+1) Respuesta: C)
+
+2) Respuesta: B)
+
+3) Respuesta: B)
+
+4) Respuesta: B)
+
+5) Respuesta: C)
+
+>>Segunda Parte<<
+
+1) public persona p = new persona();
+
+2) La composicion en programacion orientada a objetos se define como utilizar un objeto dentro de otros objetos.
+
+3) Las sentencias de creacion pueden ser definidas tanto dentro de un constructor, como de un metodo, Ejp:
+   
+   public class Ejemplo{
+
+    private persona mensajero;
+
+    public Ejemplo(){
+        mensajero = new persona();
+    }
+    
+    public Ejemplo(persona mensajero){
+        this.mensajero = mensajero;
+    }
+
+   }
+
+4) Solo se puede utilizar por la clase que los define y aquellas que hereden informacion de dicha clase
+
+5) Atributos y metodos.
+
+6) -El objeto al cual se manda el mensaje 
+   -El metodo o funcion
+   -Los paramtros que necesita este metodo
+
+
